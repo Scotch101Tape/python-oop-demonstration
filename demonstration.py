@@ -120,12 +120,12 @@ class Led:
 
     def toggle(self):
         if self._on:
-            # Turn the led on
-            # THIS IS A COMPLEX PROCESS AND IS NOT THE SAME AS TURNING IT OFF
-            pass
-        else:
             # Turn the led off
             # THIS IS A COMPLEX PROCESS AND IS NOT THE SAME AS TURNING IT ON
+            pass
+        else:
+            # Turn the led on
+            # THIS IS A COMPLEX PROCESS AND IS NOT THE SAME AS TURNING IT OFF
             pass
         self._on = not self._on
 
